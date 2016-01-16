@@ -8,3 +8,6 @@ A simple app skeleton with Express.
 - Twitter Bootstrap 3.3x
 - Grunt, start server, watch for change in app file and reload upon change
 - Configuration management using `config` module
+
+# License
+MIT
