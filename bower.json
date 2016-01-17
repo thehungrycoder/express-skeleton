@@ -1,0 +1,22 @@
+{
+  "name": "stocksplosion",
+  "description": "Get your investments right!",
+  "main": "index.js",
+  "authors": [
+    "The HungryCoder <rajuru@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "None",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

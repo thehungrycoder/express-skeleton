@@ -1,13 +1,13 @@
 module.exports = function (grunt) {
-    grunt.initConfig({
-        nodemon: {
-            dev: {
-                script: 'index.js'
-            }
-        }
-    });
+  grunt.initConfig({
+    nodemon: {
+      dev: {
+        script: 'index.js'
+      }
+    }
+  });
 
-    grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-nodemon');
 
-    grunt.registerTask('default', ['nodemon:dev']);
+  grunt.registerTask('default', ['nodemon:dev']);
 };
