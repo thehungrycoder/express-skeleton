@@ -5,6 +5,6 @@ var express = require('express'),
 
 app.set('view engine', 'jade');
 app.set('views', './app');
-app.use(express.static('public'));
+app.use(express.static('bower_components'));
 
 app.use('/', routes);
